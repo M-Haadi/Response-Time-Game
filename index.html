@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response Time Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    
+    <div class="container">
+        
+        
+
+        <div class="inner">
+            <h1>Reaction Time Game</h1>
+            <div class="timer">
+               Timer: 10s
+            </div>
+            <button class="start-btn">Start Game</button>
+            <button class="reset-btn">Reset Game</button>
+
+     <div class="command-container">
+        
+     </div>
+
+
+
+        <div class="shapes_container">
+            <i class="fa-solid fa-square"  data-value="0"></i>
+            <i class="fa-solid fa-circle" data-value="1" ></i>
+         
+
+            <i class="fa-solid fa-umbrella" data-value="2"></i>
+            <i class="fa-solid fa-tree" data-value="3"></i>
+
+            <i class="fa-solid fa-house" data-value="4"></i>
+            <i class="fa-solid fa-music clr-red" data-value="5"></i>
+
+            <i class="fa-solid fa-tv" data-value="6"></i>
+
+            <i class="fa-solid fa-mobile" data-value="7"></i>
+
+            <i class="fa-solid fa-house clr-red" data-value="8"></i>
+            <i class="fa-solid fa-music" data-value="9"></i>
+
+            <i class="fa-solid fa-umbrella clr-blue" data-value="10"></i>
+            <i class="fa-solid fa-tree clr-green" data-value="11"></i>
+            
+        </div>
+        <h4 id="player" style="padding:.5rem">Player 1 Turn:</h4>
+        <div class="reaction-times-container">
+        </div>
+
+        <div class="result-container">
+
+            <div class="avg-res-p1">
+    
+            </div>
+            <div class="avg-res-p2">
+            
+            </div>
+         
+        </div>
+        <div class="winning-container">
+            Who wins?
+                        </div>
+    
+
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

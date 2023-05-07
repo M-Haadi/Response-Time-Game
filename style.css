@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clr-red{
+    color: red;
+}
+.clr-green{
+    color: green;
+}
+.clr-blue{
+    color: rgb(3, 147, 199);
+}
+body{
+    height: 100vh;
+}
+.container
+{
+    background-color: rgb(7, 231, 231);
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.start-btn,.reset-btn{
+padding:.5rem 1rem;
+margin: .5rem 0;
+}
+.inner{
+    background-color: rgb(196, 246, 255);
+    width: 80%;
+    padding: 1rem;
+}
+.inner h1{
+    text-align: center;
+    background-color: rgb(7, 231, 231);
+    padding: 1rem 0;
+}
+.command-container,.shapes_container,.reaction-times-container{
+    padding: 1rem;
+}
+.command-container,.timer{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.timer{
+    text-align: right;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+.shapes_container{
+    background-color: rgb(7, 231, 231);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.reaction-times-container{
+    font-size: 1rem;
+}
+.reaction-times-container span{
+   margin: 0 .5rem;
+}
+
+.result-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+
+}
+
+.winning-container{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: rgb(4, 196, 4);
+}
+
+@media (max-width:550px){
+    .shapes_container{
+    
+        font-size: 2.5rem;
+        
+    }
+
+    .container
+{   
+    height:100%;
+}
+}
